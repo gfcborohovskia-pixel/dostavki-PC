@@ -33,7 +33,7 @@
         .header-left {
             display: flex;
             flex-direction: column;
-            gap: 6px;
+            gap: 8px;
         }
         .title-row {
             display: flex;
@@ -47,18 +47,24 @@
             font-weight: 600;
             color: #1e2a3a;
         }
+        /* Увеличенный стиль для логиста */
         .logist-phone {
-            font-size: 0.8rem;
+            font-size: 1rem;
             color: #2c7da0;
             background: #eef2fa;
-            display: inline-block;
-            padding: 4px 12px;
-            border-radius: 30px;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 6px 16px;
+            border-radius: 40px;
             font-weight: 500;
+            width: fit-content;
         }
         .logist-phone span {
-            font-weight: 700;
+            font-weight: 800;
+            font-size: 1.1rem;
             color: #1e4663;
+            letter-spacing: 0.3px;
         }
         .task-counter {
             background: #e9edf2;
@@ -484,7 +490,7 @@
                 <div class="last-updated" id="last-updated"></div>
             </div>
             <div class="logist-phone">
-                📞 Ваш логист: <span>8(961) 923-21-28</span>
+                📞 <strong>Ваш логист:</strong> <span>8(961) 923-21-28</span>
             </div>
         </div>
         <div class="header-buttons">
